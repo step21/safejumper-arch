@@ -10,7 +10,7 @@ license=('custom:Copyright (c) 2015 proxy.sh, Andrei Anifriev')
 depends=('openvpn')
 conflicts=('')
 install=$pkgname.install
-source=('https://proxy.sh/safejumper_linux.zip')
+source=('https://github.com/step21/safejumper-arch/raw/master/bin/safejumper_linux.zip')
 md5sums=('cbfe7452a20197ace291f47a64949729')
 
 package()
